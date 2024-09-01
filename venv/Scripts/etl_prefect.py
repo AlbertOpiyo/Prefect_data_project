@@ -136,12 +136,12 @@ def load_to_postgres(
 def etl_flow(
     base_url: str = 'api.exchangeratesapi.io/v1',
     endpoint: str = 'latest',
-    access_key: str = 'b25aa28f023e16f9e0d7a54337dff2dd',
+    access_key: str = 'write your access key here',
     secure: bool = True,
     currency_mapping: dict = currency_mapping,
     db_name: str = 'postgres',
     db_user: str ='postgres',
-    db_pass: str ='@Nairobi2003',
+    db_pass: str ='@write your password here',
     db_host:str = 'localhost',
     db_port: int = 5432,
     database_name: str = 'db_prefect'
